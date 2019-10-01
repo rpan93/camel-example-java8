@@ -1,0 +1,15 @@
+# Camel Example Java 8
+
+This example shows how to use Java 8 new features, such as lambda expressions and method references, in the definition of a Camel route.
+
+## How to run
+
+You can run this example using
+
+    mvn camel:run
+or
+mvn compile exec:java -Dexec.mainClass=org.apache.camel.example.java8.ProcessApplications -Dexec.cleanupDaemonThreads=false
+
+## More information
+
+You can find more information about Apache Camel at the website: http://camel.apache.org/
