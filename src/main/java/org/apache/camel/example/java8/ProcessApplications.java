@@ -30,8 +30,8 @@ private static RouteBuilder copyMoveFilesRouteBuilder(String from, String to) {
         @Override
         public void configure() throws Exception {
             from(from)
-                .process(new FileProcessor())
-                .to(to);
+                .process(new FileProcessor());
+               // .to(to);
         }
     };
 }
